@@ -1,0 +1,128 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Python / Backend
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+.venv/
+venv/
+env/
+ENV/
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.pyre/
+.cache/
+
+# =========================
+# Node / Frontend
+# =========================
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.cache/
+
+# 如果前端单独装过依赖，也一并忽略
+node_modules/
+dist/
+
+# =========================
+# Docker
+# =========================
+docker-compose.override.yml
+
+# =========================
+# Runtime Storage / Uploaded Files
+# =========================
+storage/
+backend/storage/
+uploads/
+previews/
+
+# 保留空目录可选
+!.gitkeep
+
+# =========================
+# Database / Local Data
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# pg data / local mounted data
+postgres_data/
+pgdata/
+data/
+
+# =========================
+# Generated files
+# =========================
+*.tmp
+*.temp
+*.bak
+
+# 导出的图片 / 架构图 / 测试文档（如果不想提交）
+*.png
+*.svg
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+
+# =========================
+# Test / Coverage
+# =========================
+coverage/
+.coverage_report/
+junit.xml
+pytest.xml
+
+# =========================
+# Misc
+# =========================
+*.pid
+*.seed
